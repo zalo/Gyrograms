@@ -29,7 +29,7 @@ export default class Main {
             //intensityScaling: 193.0,
         };
 
-        this.gui = new GUI();
+        //this.gui = new GUI();
         //this.gui.add( this.volconfig, 'showBody').onChange( () => { if(this.bodyMesh) { this.bodyMesh.visible = this.volconfig.showBody; } });
 		//this.gui.add( this.volconfig, 'intensityScaling', 0, 500, 1 ).onChange( this.updateUniforms.bind(this) );
         //this.gui.open();
@@ -95,7 +95,7 @@ export default class Main {
         cameras[3].viewport = new THREE.Vector4( x-size, y, size, size );
 
         // Attach this function to a user interaction, e.g., a button click
-        document.getElementById('request-permission-button').addEventListener('click', this.requestOrientationPermission.bind(this));
+        //document.getElementById('request-permission-button').addEventListener('click', this.requestOrientationPermission.bind(this));
 
         //this.world.container.addEventListener('pointermove', (event) => {
         //    event.stopPropagation();
@@ -142,7 +142,7 @@ export default class Main {
         this.deltaTime = timeMS - this.timeMS;
         this.timeMS = timeMS;
 
-        this.arrayCamera.quaternion.setFromEuler(new THREE.Euler(0.0, timeMS * -0.1, 0.0));
+        this.arrayCamera.quaternion.setFromEuler(new THREE.Euler(0.0, timeMS * -0.075, 0.0));
     
         //this.world.controls.update();
         //this.world.renderer.render(this.world.scene, this.world.camera);
