@@ -13,8 +13,9 @@ A viewer for 360 spinning phone zoetrope displays.
 
 Based on the Holopot 360 Display, but with a 4-sided Pepper's Ghost Pyramid to reduce the RPM requirements to 1/4.
 
-Early Prototype Footage: https://youtu.be/EXZ7FneS4tw
-Early Prototype Assembly Close-up: ![Early Prototype](assets/EarlyPrototype.jpg)
+### Early Prototype Footage: https://youtu.be/EXZ7FneS4tw
+
+### Early Prototype Assembly Close-up: ![Early Prototype](assets/EarlyPrototype.jpg)
 
  # Building
 
