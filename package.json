@@ -1,0 +1,12 @@
+{
+	"scripts": {
+		"build": "esbuild ./src/main.js --bundle --minify --sourcemap --format=esm --outdir=./build"
+	},
+	"dependencies": {
+		"esbuild": "^0.25.6",
+		"three": "^0.180.0"
+	},
+	"devDependencies": {
+		"typescript": "^5.8.3"
+	}
+}

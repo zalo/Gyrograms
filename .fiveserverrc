@@ -1,0 +1,6 @@
+{
+  "open": "index.html",
+  "https": true,
+  "watch": "src",
+  "ignore": "polycam-v1"
+}
