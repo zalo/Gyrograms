@@ -1,4 +1,4 @@
-# [Gyrograms](zalo.github.io/Gyrograms/)
+# [Gyrograms](https://zalo.github.io/Gyrograms/)
 
 <p align="left">
   <a href="https://github.com/zalo/Gyrograms/deployments/activity_log?environment=github-pages">
@@ -11,7 +11,7 @@
 
 A viewer for 360 spinning phone zoetrope displays.
 
-Based on the Holopot 360 Display, but with a 4-sided Pepper's Ghost Pyramid to reduce the RPM requirements to 1/4.
+Based on the Holopot 360 Display, but with a 4-sided Pepper's Ghost Pyramid to both reduce the RPM by 75% and enhance the brightness by 4x.  Also using a 120hz iPhone 16 Pro, and its built-in Gyroscope for self-calibration of the rotation speed.
 
 ### Early Prototype Footage: https://youtu.be/EXZ7FneS4tw
 
